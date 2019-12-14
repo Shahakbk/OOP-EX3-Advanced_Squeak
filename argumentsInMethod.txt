@@ -1,0 +1,2 @@
+argumentsInMethod: aSourceCode
+^ (Parser new parse: aSourceCode class: MyObject) arguments collect: [:each | each name]
